@@ -1,0 +1,10 @@
+<div class="container-md">
+  <div class="d-flex flex-column p-5">
+    <h1 class="d-flex justify-content-center">Stupid Coaching </h1>
+    <p class="d-flex justify-content-center">ask your coach anything:</p>
+    <form action="/answer" method="get" data-turbo="false" class="form d-flex justify-content-center"">
+      <input class="form-control" type="text" name="question" placeholder="enter your question here!" value ="<%= params[:question] %>">
+      <input type="submit" value="Ask" class="btn btn-primary">
+    </form>
+  </div>
+</div>

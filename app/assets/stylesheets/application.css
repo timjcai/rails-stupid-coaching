@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+.question {
+  background-color: white;
+  border-left: 5px solid grey;
+  padding-left: 10px;
+}
+
+.answer {
+  background-color: lightyellow;
+  border-left: 5px solid grey;
+  padding-left: 10px;
+}
